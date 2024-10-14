@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Тел: +359 879 330 389</p>
             <div className="social-links">
                 <a
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     href="https://www.instagram.com/become.pro2024"
                     aria-label="Facebook"
                 >
@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     href="https://www.instagram.com/become.pro2024"
                     aria-label="Instagram"
                 >
@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     href="https://www.instagram.com/become.pro2024"
                     aria-label="TikTok"
                 >
