@@ -2,6 +2,7 @@
     background-color: #f0f8ff; /* Светло син фон за приятен контраст */
     color: #333; /* Тъмен текст за по-добра четимост */
     padding: 20px;
+    padding-top: 80px; /* Регулирай според височината на header-а */
     margin: 20px 0; /* Отстояние от другите секции */
     border-radius: 8px; /* Заоблени ъгли за по-модерен вид */
     /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);*/ /* Субтилни сенки за дълбочина */
@@ -78,6 +79,7 @@
 @media (max-width: 576px) {
     .general-info{
         padding:1px;
+        padding-top: 80px; /* Регулирай според височината на header-а */
     }
 
     .general-info p:hover {
