@@ -29,7 +29,7 @@
     margin: 5px;
     text-align: center;
     transition: transform 0.5s ease-in-out, text-shadow 0.3s ease-in-out;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 
     .faq-question:focus {
@@ -53,7 +53,7 @@
     margin: 5px 0 10px;
     margin: 5px;
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 
     .faq-answer.active {
