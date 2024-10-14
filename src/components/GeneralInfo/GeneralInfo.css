@@ -22,7 +22,7 @@
     /*}*/
     .general-info p {
         /*font-family: 'Roboto', sans-serif;*/
-        font-family: 'Lobster', cursive;
+        font-family: 'Lobster';
         font-size: 18px; /* Малко по-голям шрифт за по-изчистен вид */
         line-height: 1.8; /* По-голямо междуредие за по-лесна четимост */
         color: #333; /* По-тъмен нюанс за по-добър контраст с фона */
@@ -85,7 +85,7 @@
     }
 
     .general-info p {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .general-info h2 {

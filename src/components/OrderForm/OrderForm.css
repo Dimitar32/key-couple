@@ -18,7 +18,7 @@
 
 form {
     /*font-family: 'Roboto Slab';*/
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     max-width: 600px;
     margin: 0 auto;
     text-align: left;
@@ -104,7 +104,7 @@ input {
 
 @media (max-width: 576px) {
     .order-form-container {
-        font-size: 13px; /* Задава размер на шрифта */
+        font-size: 16px; /* Задава размер на шрифта */
     }
 
         .order-form-container h2 {
