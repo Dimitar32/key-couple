@@ -1,0 +1,113 @@
+﻿.order-form-container {
+    /*max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;*/
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    scroll-margin-top: 80px;
+}
+
+    .order-form-container h2 {
+        font-family: 'Roboto Slab';
+        text-align: center;
+        color: #f77fbe;
+        margin-bottom: 20px;
+        font-size: 41px; /* Задава размер на шрифта */
+    }
+
+form {
+    /*font-family: 'Roboto Slab';*/
+    font-family: 'Lobster', cursive;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f77fbe; /* White form background */
+    padding: 30px 40px; /* Added padding for better spacing */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger box shadow */
+}
+
+.order-form label {
+    display: block;
+    align-content:center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    color:black;
+}
+
+.order-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.order-form button {
+    /*font-family: 'Roboto Slab';*/
+    font-family: 'Lobster', cursive;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #f77fbe;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+    .order-form button:hover {
+        background-color: #e91e63;
+        color: white;
+    }
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+    margin-top: 5px; /* Added top margin for spacing */
+    transition: border-color 0.3s ease;
+}
+
+    input:focus {
+        border-color: black; /* Gold border on focus */
+        outline: none;
+    }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .order-form-container h2 {
+        font-size: 30px; /* Задава размер на шрифта */
+    }
+}
+
+@media (max-width: 576px) {
+    .order-form-container {
+        font-size: 13px; /* Задава размер на шрифта */
+    }
+
+        .order-form-container h2 {
+            font-size: 20px;
+        }
+}

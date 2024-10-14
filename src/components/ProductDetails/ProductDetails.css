@@ -1,0 +1,47 @@
+﻿.product-details-section {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 1880px;
+    height: 700px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-price {
+    width: 100%; /* Заема цялата ширина на контейнера */
+    font-size: 1.5rem;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    width: 100%; /* Заема цялата ширина на контейнера */
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f77fbe;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 28px; /* Задава размер на шрифта */
+}
+
+h3, p {
+    margin: 5px;
+    text-align: center;
+}
