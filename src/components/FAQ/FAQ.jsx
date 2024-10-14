@@ -1,28 +1,4 @@
-﻿//import React from 'react';
-//import './FAQ.css';
-
-//const questionsAnswers = [
-//    { question: 'Как мога да поръчам?', answer: 'Можете да поръчате директно през уебсайта ни или по телефона.' },
-//    { question: 'За колко време пристигат нашите ключодържатели?', answer: 'Вашата поръчка ще бъде обработена между 1 и 3 работни дена' },
-//    { question: 'Какви са методите за плащане?', answer: 'Приемаме различни методи за плащане, включително по Revolut, банков превод, наложен платеж при вземане от куриер. За повече информация ни пишете на лично в Instagram - @ или на телефон +359 879330389.' },
-//    { question: 'Има ли възможност за връщане на продукт?', answer: 'Да, предлагаме 30 дни право на връщане на продукта.' }
-//];
-
-//const FAQ = () => {
-//    return (
-//        <section id="faq" className="faq-section">
-//            <h2>Често задавани въпроси</h2>
-//            {questionsAnswers.map((qa, index) => (
-//                <div key={index} className="faq-item">
-//                    <h3>{qa.question}</h3>
-//                    <p>{qa.answer}</p>
-//                </div>
-//            ))}
-//        </section>
-//    );
-//};
-
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import './FAQ.css';
 
 const questionsAnswers = [
@@ -38,14 +14,13 @@ const questionsAnswers = [
 ];
 
 const FAQ = () => {
-    const [activeIndex, setActiveIndex] = useState(null); // Хуук за състоянието за следене на активния индекс
+    const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleAnswer = (index) => {
-        // Функция за промяна на активния индекс (отваря/затваря отговор)
         if (activeIndex === index) {
-            setActiveIndex(null); // Затвори ако е кликнато върху същия
+            setActiveIndex(null);
         } else {
-            setActiveIndex(index); // Промени активния индекс
+            setActiveIndex(index);
         }
     };
 

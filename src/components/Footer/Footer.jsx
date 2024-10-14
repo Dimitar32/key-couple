@@ -2,11 +2,8 @@
 import './Footer.css';
 import {
     FaFacebookF,
-    FaTwitter,
     FaInstagram,
-    FaTiktok,
-    FaLinkedin,
-    FaYoutube,
+    FaTiktok
 } from 'react-icons/fa';
 
 const Footer = () => {
