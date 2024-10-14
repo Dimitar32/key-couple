@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import './GeneralInfo.css'; // Импорт на CSS стиловете
 
 const GeneralInfo = () => {

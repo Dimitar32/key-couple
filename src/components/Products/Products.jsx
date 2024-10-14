@@ -1,9 +1,8 @@
-﻿import React from 'react';
+import React from 'react';
 import './Products.css';
 import Ariel from './Ariel.png';
 import Shrek from './Shrek.png';
 import Rapunzel from './Rapunzel.png';
-import LionKing from './Lion King.png';
 
 const products = [
     { id: 1, name: 'Ерик и Ариел', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: Ariel },

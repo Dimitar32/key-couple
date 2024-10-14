@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import './ProductDetails.css';
 import Ariel from '../Products/Ariel.png';
