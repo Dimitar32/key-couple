@@ -9,7 +9,7 @@ import {
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>Свържете се с нас: disneykeychains@gmail.com</p>
+            <p>Свържете се с нас: keycouple@outlook.com</p>
             <p>Тел: +359 879 330 389</p>
             <div className="social-links">
                 <a
@@ -22,7 +22,7 @@ const Footer = () => {
 
                 <a
                     target="_blank" rel="noopener noreferrer"
-                    href="https://www.instagram.com/become.pro2024"
+                    href="https://www.instagram.com/keycouple8/"
                     aria-label="Instagram"
                 >
                     <FaInstagram />
@@ -30,7 +30,7 @@ const Footer = () => {
 
                 <a
                     target="_blank" rel="noopener noreferrer"
-                    href="https://www.instagram.com/become.pro2024"
+                    href="https://www.tiktok.com/@keycouple8"
                     aria-label="TikTok"
                 >
                     <FaTiktok />
