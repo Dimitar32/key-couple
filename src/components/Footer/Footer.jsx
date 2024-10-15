@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="social-links">
                 <a
                     target="_blank" rel="noopener noreferrer"
-                    href="https://www.instagram.com/become.pro2024"
+                    href="https://www.facebook.com/profile.php?id=61566904842905"
                     aria-label="Facebook"
                 >
                     <FaFacebookF />
