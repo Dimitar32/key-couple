@@ -3,15 +3,16 @@ import './Products.css';
 import Ariel from './Ariel.png';
 import Shrek from './Shrek.png';
 import Rapunzel from './Rapunzel.png';
+import LionKing from './LionKing.png';
 
 const products = [
     { id: 1, name: 'Ерик и Ариел', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: Ariel },
-    { id: 2, name: 'Шрек и Фиона', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: Shrek }/*,
-    { id: 4, name: 'Нала и Симба', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: LionKing }*/
+    { id: 2, name: 'Шрек и Фиона', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: Shrek },
+    { id: 3, name: 'Рапунцел и Флин', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: Rapunzel },
+    { id: 4, name: 'Нала и Симба', oldPrice: '35.99 лв', price: '25.99 лв', imageUrl: LionKing }
 ];
 
 const blurProducts = [
-    { id: 3, name: 'Рапунцел и Флин', oldPrice: '??.?? лв', price: 'Очаквайте скоро', imageUrl: Rapunzel }
 ];
 
 const Products = () => {

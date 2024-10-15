@@ -12,6 +12,8 @@ const OrderForm = () => {
         country: '',
         quantityShrek: 0,
         quantityAriel: 0,
+        quantitySimba: 0,
+        quantityRapunzel: 0,
         additionalInfo: ''
     });
 
@@ -47,6 +49,8 @@ const OrderForm = () => {
             country: '',
             quantityShrek: 0,
             quantityAriel: 0,
+            quantitySimba: 0,
+            quantityRapunzel: 0,
             additionalInfo: ''
         });
     };
@@ -108,7 +112,29 @@ const OrderForm = () => {
                     />
                 </label>
                 <label>
-                    Адрес на офис:
+                    Брой ключодържатели Рапунцел и Флин:
+                    <input
+                        type="number"
+                        name="quantityRapunzel"
+                        value={formData.quantityRapunzel}
+                        onChange={handleChange}
+                        min="0"
+                        required
+                    />
+                </label>
+                <label>
+                    Брой ключодържатели Нала и Симба:
+                    <input
+                        type="number"
+                        name="quantitySimba"
+                        value={formData.quantitySimba}
+                        onChange={handleChange}
+                        min="0"
+                        required
+                    />
+                </label>
+                <label>
+                    Адрес на офис на Еконт:
                     <input
                         type="text"
                         name="address"
