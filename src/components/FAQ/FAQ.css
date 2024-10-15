@@ -1,7 +1,6 @@
-﻿.faq-section {
+.faq-section {
     padding: 20px;
-    /*background-color: #f77fbe;*/ /* Светло син цвят за фон */
-    width: 100%; /* Заема цялата ширина на вида */
+    width: 100%;
     scroll-margin-top: 80px;
 }
 
@@ -12,17 +11,12 @@
     transition: background-color 0.3s ease;
 }
 
-    /*.faq-item:hover {
-        background-color: #faf0f7;*/ /* Светъл фон при ховър */
-    /*}*/
-
 .faq-question {
     background: none;
     border: none;
     outline: none;
     cursor: pointer;
     width: 100%;
-    /*text-align: left;*/
     padding: 10px;
     font-size: 18px;
     color: black;
@@ -39,17 +33,14 @@
 
     .faq-question:hover {
         color: #f77fbe;
-        text-decoration: underline; /* Добавя подчертаване при ховър */
+        text-decoration: underline;
         color: #ff4088;
-        /*text-decoration: none;*/
-        /*padding-left: 25px;*/
         transform: scale(1.1);
     }
 
 .faq-answer {
     display: none;
     padding: 10px;
-    /*border-left: 4px solid #007bff;*/
     margin: 5px 0 10px;
     margin: 5px;
     text-align: center;
@@ -57,22 +48,21 @@
 }
 
     .faq-answer.active {
-        display: block; /* Показва отговора когато е активен */
+        display: block;
     }
 
         .faq-answer.active:hover {
             display: block;
-            max-height: 500px; /* Позволява плавно разширяване */
+            max-height: 500px;
             opacity: 1;
             background-color: #f77fbe;
             color: white;
-            /*transform: scale(1.1);*/
         }
+        
 h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 28px;
     text-align: center;
-    /*background: linear-gradient(90deg, #f77fbe, #ff4088);*/
     background: linear-gradient(90deg, #f77fbe, #f77fbe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

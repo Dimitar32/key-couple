@@ -1,7 +1,6 @@
-﻿.header {
+.header {
     display: flex; /* Използване на flexbox за подреждане */
     justify-content: center;
-    /*justify-content: space-between;*/ /* Разделя елементите на двата края на контейнера */
     align-items: center; /* Центрира елементите вертикално */
     background-color: #f77fbe;
     color: white; /* Бял текст */
@@ -24,10 +23,6 @@
     }
 
 nav {
-    /*position: absolute;*/ /* Позиционира навигацията абсолютно */
-    /*left: 20px;*/ /* Отмества навигацията на ляво */
-    /*top: 50%;*/ /* Центрира вертикално */
-    /*transform: translateY(-50%);*/ /* Коригира позицията точно на средата */
     font-family: 'Lobster';
     display: flex; /* Използване на flexbox и за навигацията */
 }

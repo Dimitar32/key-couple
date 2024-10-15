@@ -1,13 +1,10 @@
-﻿.general-info {
+.general-info {
     background-color: #f0f8ff; /* Светло син фон за приятен контраст */
     color: #333; /* Тъмен текст за по-добра четимост */
     padding: 20px;
     padding-top: 80px; /* Регулирай според височината на header-а */
     margin: 20px 0; /* Отстояние от другите секции */
-    border-radius: 8px; /* Заоблени ъгли за по-модерен вид */
-    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);*/ /* Субтилни сенки за дълбочина */
-    /*width: 100%;*/ /* Заема цялата ширина на вида */
-    /*padding-top: 90px;*/
+    border-radius: 8px; 
 }
 
     .general-info h2 {
@@ -17,12 +14,7 @@
         font-size: 28px; /* Задава размер на шрифта */
     }
 
-    /*.general-info p {
-        font-size: 16px;*/ /* Подходящ размер на шрифта за основния текст */
-        /*line-height: 1.6;*/ /* Междуредие за по-добра четимост */
-    /*}*/
     .general-info p {
-        /*font-family: 'Roboto', sans-serif;*/
         font-family: 'Lobster';
         font-size: 18px; /* Малко по-голям шрифт за по-изчистен вид */
         line-height: 1.8; /* По-голямо междуредие за по-лесна четимост */
@@ -43,8 +35,6 @@
             transform: translateX(10px); /* Леко преместване надясно при hover */
         }
 
-
-/* Медийни заявки за адаптиране на ширината на продуктовите карти */
 @media (max-width: 1200px) {
 
     .general-info p {
@@ -79,11 +69,11 @@
 @media (max-width: 576px) {
     .general-info{
         padding:1px;
-        padding-top: 80px; /* Регулирай според височината на header-а */
+        padding-top: 80px;
     }
 
     .general-info p:hover {
-        transform: translateX(3px); /* Леко преместване надясно при hover */
+        transform: translateX(3px);
     }
 
     .general-info p {

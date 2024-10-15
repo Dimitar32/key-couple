@@ -1,10 +1,4 @@
-﻿.order-form-container {
-    /*max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;*/
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+.order-form-container {
     scroll-margin-top: 80px;
 }
 
@@ -17,7 +11,6 @@
     }
 
 form {
-    /*font-family: 'Roboto Slab';*/
     font-family: 'Lobster';
     max-width: 600px;
     margin: 0 auto;
@@ -54,7 +47,6 @@ form {
 }
 
 .order-form button {
-    /*font-family: 'Roboto Slab';*/
     font-family: 'Lobster';
     display: block;
     width: 100%;
