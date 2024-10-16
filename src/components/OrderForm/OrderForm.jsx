@@ -11,8 +11,8 @@ const OrderForm = () => {
         postalCode: '',
         country: '',
         quantityShrek: 0,
-        quantityAriel: 0,
-        quantitySimba: 0,
+        // quantityAriel: 0,
+        // quantitySimba: 0,
         quantityRapunzel: 0,
         additionalInfo: ''
     });
@@ -48,8 +48,8 @@ const OrderForm = () => {
             postalCode: '',
             country: '',
             quantityShrek: 0,
-            quantityAriel: 0,
-            quantitySimba: 0,
+            // quantityAriel: 0,
+            // quantitySimba: 0,
             quantityRapunzel: 0,
             additionalInfo: ''
         });
@@ -89,7 +89,7 @@ const OrderForm = () => {
                 {/*        required*/}
                 {/*    />*/}
                 {/*</label>*/}
-                <label>
+                {/* <label>
                     Брой ключодържатели Ерик и Ариел:
                     <input
                         type="number"
@@ -99,7 +99,7 @@ const OrderForm = () => {
                         min="0"
                         required
                     />
-                </label>
+                </label> */}
                 <label>
                     Брой ключодържатели Шрек и Фиона:
                     <input
@@ -122,7 +122,7 @@ const OrderForm = () => {
                         required
                     />
                 </label>
-                <label>
+                {/* <label>
                     Брой ключодържатели Нала и Симба:
                     <input
                         type="number"
@@ -132,7 +132,7 @@ const OrderForm = () => {
                         min="0"
                         required
                     />
-                </label>
+                </label> */}
                 <label>
                     Адрес на офис на Еконт:
                     <input
