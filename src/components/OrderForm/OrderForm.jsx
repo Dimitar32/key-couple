@@ -13,7 +13,7 @@ const OrderForm = () => {
         quantityShrek: 0,
         // quantityAriel: 0,
         // quantitySimba: 0,
-        quantityRapunzel: 0,
+        // quantityRapunzel: 0,
         additionalInfo: ''
     });
 
@@ -50,7 +50,7 @@ const OrderForm = () => {
             quantityShrek: 0,
             // quantityAriel: 0,
             // quantitySimba: 0,
-            quantityRapunzel: 0,
+            // quantityRapunzel: 0,
             additionalInfo: ''
         });
     };
@@ -111,7 +111,7 @@ const OrderForm = () => {
                         required
                     />
                 </label>
-                <label>
+                {/* <label>
                     Брой ключодържатели Рапунцел и Флин:
                     <input
                         type="number"
@@ -121,7 +121,7 @@ const OrderForm = () => {
                         min="0"
                         required
                     />
-                </label>
+                </label> */}
                 {/* <label>
                     Брой ключодържатели Нала и Симба:
                     <input
